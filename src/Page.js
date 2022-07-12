@@ -13,18 +13,18 @@ const features = [
 ];
 
 // JSX
-const JSXItem = <input type={"submit"} className={"button"} />;
-const otherJSX = <div>{JSXItem}</div>;
+// const JSXItem = <input type={"submit"} className={"button"} />;
+// const otherJSX = <div>{JSXItem}</div>;
 function Homepage() {
   return (
     <div>
       <h4>Title</h4>
       <h1>{title}</h1>
       <h4>Image</h4>
-      <img src={image} />
+      <img src={image} alt={title} />
       <h4>Features</h4>
-      {features.map((element) => (
-        <p>{element}</p>
+      {features.map((element, id) => (
+        <p key={id}>{element}</p>
       ))}
     </div>
   );
