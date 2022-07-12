@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Intro to React and JSX
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Description
 
-## Available Scripts
+This is a practice session for React introduction
 
-In the project directory, you can run:
+# Getting Started
 
-### `npm start`
+In order for you to use the content on this repo ensure you have the following:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A computer that runs on either of the following; (Windows 7+, Linux, Mac OS)
+- nodejs 9.0+
+- Some bit of patience for your own sanity.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To use this repo on your machine requires some simple steps
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Alternative One
 
-### `npm run build`
+- Open a terminal / command line interface on your computer
+- Clone the repo by using the following:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+        git clone https://github.com/Douglas254/intro-to-react-n-jsx.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Be patient as it creates a copy on your local machine for you.
+- Change directory to the repo folder:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        cd intro-to-react-n-jsx
 
-### `npm run eject`
+- (Optional) Open it in `Visual Studio Code`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+        code .
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- (Alternate Option) Open it in any editor of your choice.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Alternative Two
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- On the top right corner of this page there is a button labelled `Fork`.
+- Click on that button to fork the repo to your own account.
+- Take on the process in `Alternative One` above.
+- Remember to replace your username when cloning.
 
-## Learn More
+        git clone https://github.com/your-username-here/intro-to-react-n-jsx
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Running the application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Running the application is very straight forward. You can use the following steps to run the app.
 
-### Code Splitting
+- Install required dependencies from npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+      npm install
 
-### Analyzing the Bundle Size
+- Run the application on the browser
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+      npm start
 
-### Making a Progressive Web App
+# Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project was contributed to by:
 
-### Advanced Configuration
+- [Douglas Obara](https://github.com/douglas254/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project is licensed under MIT.
